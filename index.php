@@ -42,8 +42,8 @@
        <!-- the add.php will execute our CREATE function -->
 		     <form method="post" action="add.php" class="form-horizontal col-md-6 col-md-offset-3">
            <!-- I am using the wrong input types so that we can test our php validation with no road blocks -->
-           <p><input type="text" name="name" placeholder="Your Name"></p>
-           <p><input type="text" name="email" placeholder="Your Email"></p>
+           <!-- <p><input type="text" name="name" placeholder="Your Name"></p>
+           <p><input type="text" name="email" placeholder="Your Email"></p> -->
            <p><input type="text" name="age" placeholder="Your Age"></p>
            <input class="btn btn-primary order" type="submit" name="Submit" value="Add">
            <input class="btn btn-dark reset" type="reset" value="Clear">
