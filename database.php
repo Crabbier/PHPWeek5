@@ -8,6 +8,7 @@
       // In PHP, $this keyword references the current object of the class. The $this keyword allows you to access the properties and methods of the current object within the class using the object operator
       $this->connect_db();
     }
+    //I add something to the file
     // The public access modifier allows you to access properties and methods from both inside and outside of the class.
     public function connect_db(){
       $this->connection = mysqli_connect('localhost', 'root', '', 'mydb');
